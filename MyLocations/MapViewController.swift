@@ -116,8 +116,8 @@ class MapViewController: UIViewController {
             annotationView.enabled = true
             annotationView.canShowCallout = true
             annotationView.animatesDrop = false
-            annotationView.pinTintColor = UIColor(red: 0.32, green: 0.82,
-                                                  blue: 0.4, alpha: 1)
+            annotationView.pinTintColor = UIColor(red: 0.32, green: 0.82, blue: 0.4, alpha: 1)
+            annotationView.tintColor = UIColor(white: 0.0, alpha: 0.5)
             // 4
             let rightButton = UIButton(type: .DetailDisclosure)
             rightButton.addTarget(self,
